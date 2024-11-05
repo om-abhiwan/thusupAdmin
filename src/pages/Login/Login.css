@@ -1,0 +1,80 @@
+.adminLogin {
+  background-color: #1f2d68;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.adminLoginComp {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-items: center;
+  align-items: center;
+}
+
+.adminLoginLogo {
+  width: 50%;
+  text-align: center;
+}
+
+.adminLoginLogo img {
+  width: 50%;
+}
+
+.adminLoginForm {
+  width: 50%;
+}
+
+.adminLoginInputDiv {
+  width: 70%;
+  background: #ffffff;
+  box-shadow: 0px 3.47205px 1.73602px rgba(0, 0, 0, 0.5),
+    inset 0px -3.91924px 4.70309px rgba(0, 0, 0, 0.25),
+    inset -7.05463px 5.48693px 7.2114px rgba(0, 0, 0, 0.25),
+    inset -2.0618px -2.74907px 2.74907px rgba(255, 255, 255, 0.15),
+    inset 2.74907px 0px 6.87267px 1.37453px rgba(0, 0, 0, 0.25);
+  border-radius: 26.0403px;
+  padding: 10%;
+  color: #1f2d68;
+  font-weight: 700;
+}
+
+.adminLoginInput {
+  display: flex;
+  flex-flow: column;
+}
+
+.loginHead {
+  font-size: 2rem;
+}
+
+.adminLoginInput input {
+  width: 100%;
+  margin: 3% auto;
+  padding: 2%;
+  background: #ffffff;
+  border: 0.832567px solid #6c6c6c;
+  border-radius: 5.85113px;
+}
+
+.adminLoginInput input::placeholder {
+  color: #6c6c6c;
+}
+
+.adminLoginButton .btn {
+  background: #1f2d68;
+  box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.5),
+    inset 0px -4.51519px 5.41823px rgba(0, 0, 0, 0.25),
+    inset -8.12735px 6.32127px 8.30795px rgba(0, 0, 0, 0.25),
+    inset -2.37532px -3.16709px 3.16709px rgba(255, 255, 255, 0.15),
+    inset 3.16709px 0px 7.91772px 1.58354px rgba(0, 0, 0, 0.25);
+  border-radius: 7.22431px;
+  color: white;
+  width: 80%;
+  padding: 2%;
+}
