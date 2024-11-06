@@ -20,8 +20,8 @@ const Sidebar = () => {
 
             <div className="sidebarMenu">
 
-                <NavLink to="/"  >
-                    <div className="sidebarItem my-4 ">
+                <NavLink to="/" className="my-4">
+                    <div className="sidebarItem">
                         <div className="itemIcon">
                             <img src={homeIcon} alt="homeIcon" />
                         </div>
@@ -31,8 +31,8 @@ const Sidebar = () => {
                     </div>
                 </NavLink>
 
-                <NavLink to="/user"  >
-                    <div className="sidebarItem my-4">
+                <NavLink to="/user">
+                    <div className="sidebarItem">
                         <div className="itemIcon">
                             <img src={umIcon} />
                         </div>

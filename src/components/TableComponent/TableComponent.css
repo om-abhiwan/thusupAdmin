@@ -35,6 +35,8 @@
 
 .tableTest .MuiDataGrid-cell {
   text-align: center !important;
+  border-color: red !important;
+  /* border-top: 0px !important; */
 }
 
 .actionBtn {
@@ -45,4 +47,17 @@
     0px 0px 8.68011px rgba(255, 255, 255, 0.6) !important;
   font-family: "thumbsup", sans-serif !important;
   padding: 2% 5% !important;
+}
+
+.tableTest .MuiToolbar-gutters{
+  color: white;
+}
+
+.tableTest .MuiDataGrid-columnSeparator{
+  display: none !important;
+}
+
+.tableTest .MuiDataGrid-columnHeader{
+  border: red !important;
+  /* border-top: 0px; */
 }

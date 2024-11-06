@@ -57,7 +57,10 @@
 }
 
 .active {
-  background-color: rebeccapurple;
+  background: rgba(223, 0, 37, 1);
+  border-radius: 10px;
+  padding: 3% 0;
+  border: 1px solid #fff;
 }
 
 .sidebarDetails {
@@ -71,4 +74,12 @@
 
 .itemName {
   padding: 0 2%;
+}
+
+.sidebarMenu a {
+  margin: 4% 0;
+  display: flex;
+}
+
+.sidebarMenu .active {
 }
