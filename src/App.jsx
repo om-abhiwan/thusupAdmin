@@ -4,6 +4,7 @@ import Layout from "./layout/Layout"
 import Dashboard from "./pages/Dashboard/Dashboard"
 import User from "./pages/User/User"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Toaster } from "react-hot-toast"
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         </Route>
 
       </Routes>
+      <Toaster />
     </>
   )
 }

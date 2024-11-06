@@ -2,6 +2,8 @@ import "./Login.css"
 import logo from "../../assets/logo.svg"
 import { useNavigate } from "react-router-dom"
 import { useState } from "react"
+import { adminLogin } from "../../services/apis"
+import toast from "react-hot-toast"
 
 
 const Login = () => {
@@ -14,7 +16,19 @@ const Login = () => {
 
 
     const handleLogin = async () => {
-        navigate("/")
+        try {
+
+            const getResp = await adminLogin(formData)
+            // console.log(getResp.data.responseMessage)
+
+            if (getResp.data.status) {
+                toast.error(getResp.data.responseMessage)
+            }
+
+            // navigate("/")    
+        } catch (err) {
+            toast.error(err.message)
+        }
     }
 
     return (
