@@ -1,6 +1,8 @@
+@import "tailwindcss";
+
 @font-face {
   font-family: "thumbsup";
-  src: url("./assets/Font/thumsUpFont.otf") format("opentype");
+  src: url("./assets/Font/ThumsUp-Black.ttf") format("opentype");
 }
 
 * {
@@ -13,7 +15,11 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
+  font-family: 'thumbsup' !important;
+  letter-spacing: 0.03em !important;
+  text-shadow: none !important;
 }
+
 
 #root {
   width: 100%;

@@ -6,18 +6,16 @@ import User from "./pages/User/User"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Toaster } from "react-hot-toast"
 
-
 function App() {
 
   return (
     <>
       <Routes>
         <Route path="/login" element={<Login />} />
-        <Route path="" element={<Layout />} >
-          <Route path="/" element={<Dashboard />} />
+        <Route path="/" element={<Layout />}>
+          <Route index element={<User />} />
           <Route path="/user" element={<User />} />
         </Route>
-
       </Routes>
       <Toaster />
     </>
